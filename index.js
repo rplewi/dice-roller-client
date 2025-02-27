@@ -1,4 +1,4 @@
-//This function calls the API
+//This function calls the API :)
 async function rollDice(){
     const response = await fetch("https://web-dice-roller-server-dycnfnbkfgd8fxgp.centralus-01.azurewebsites.net/roll")
     const data = await response.json()
