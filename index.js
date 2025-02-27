@@ -1,5 +1,5 @@
 async function rollDice(){
-    const response = await fetch("http://localhost:3000/roll")
+    const response = await fetch("https://web-dice-roller-server-dycnfnbkfgd8fxgp.centralus-01.azurewebsites.net/roll")
     const data = await response.json()
     document.getElementById("dice1").value = data.die1
     document.getElementById("dice2").value = data.die2
